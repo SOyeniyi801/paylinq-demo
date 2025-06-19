@@ -378,7 +378,7 @@ nav {
 }
 
 .step-number {
-    background: #28a745;
+    background: #339253;
     color: white;
     width: 60px;
     height: 60px;
@@ -410,7 +410,12 @@ nav {
 /* Pricing Section */
 .pricing {
     padding: 80px 0;
-    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    background: linear-gradient(
+        to right,
+        #f5e7d6,
+        #f1c9a5,
+        #be7b44
+      );
     color: #333;
 }
 
@@ -422,7 +427,7 @@ nav {
 }
 
 .pricing-card {
-    background: white;
+    background: #E2DDD8;
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
@@ -438,7 +443,7 @@ nav {
 }
 
 .pricing-card.featured {
-    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    background: linear-gradient(135deg, #D2AF7C, #e2cfb1);
     color: #333;
 }
 
@@ -451,7 +456,7 @@ nav {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #28a745;
+    color: #339253;
 }
 
 .pricing-card.featured .price {
@@ -473,7 +478,7 @@ nav {
     content: "✓";
     position: absolute;
     left: 0;
-    color: #28a745;
+    color: #339253;
     font-weight: bold;
 }
 
